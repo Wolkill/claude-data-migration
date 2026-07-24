@@ -1,0 +1,24 @@
+# Собранные данные — НИКОГДА не коммитить.
+# Здесь лежат транскрипты диалогов и рабочие файлы проектов.
+claude-evac/
+claude-evac.zip
+for-old-pc.zip
+*.zip
+
+# Бэкапы, которые создаёт слияние
+backup-before-merge_*/
+
+# Отчёты конкретного прогона
+MANIFEST.json
+projects-map.csv
+ОТЧЁТ.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows
+Thumbs.db
+desktop.ini
