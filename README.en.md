@@ -4,7 +4,9 @@ Move **Claude Code** and **Claude Desktop** data from one computer to another �
 
 *[Русская версия](README.md)*
 
-> **Note on language:** the scripts print their output in Russian. The code and this document are in English, but if you run the tools you will see Russian console messages. Contributions adding localisation are welcome.
+> **Note on language:** the scripts print their output in Russian. The code and this document are in English, but running the tools means reading Russian console messages.
+>
+> An English UI has not been built yet — deliberately. Duplicating the scripts would create two copies drifting apart, and the right fix is extracting the strings into a table, which is not worth doing blind. **If you need it, open an issue** — one report is enough to justify the work. Forking and translating is fine too; the licence allows it.
 
 This came out of a real migration: a work laptop was about to be wiped, holding dozens of Claude Code sessions, personal skills and per-project settings. That data lives in several different places — some of it *inside* project working folders — and losing a piece of it by hand is easy.
 
